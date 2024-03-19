@@ -1,0 +1,37 @@
+.kvadrat {
+  /* border: 5px black solid; */
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.poza {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: aliceblue;
+  width: 250px;
+  height: 250px;
+  background-color: rgb(84, 96, 172);
+  position: relative;
+  z-index: 1;
+  transition: transform 1s ease-in-out, background-color 1s ease-in-out;
+  transform-origin: 0 0;
+
+
+}
+
+
+.poza:hover {
+  background-color: rgb(35, 56, 193);
+  transform: translateX(250px);
+}
+
+img {
+  position: absolute;
+  right: 50;
+  z-index: 0;
+
+}
